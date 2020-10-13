@@ -4,7 +4,7 @@ html {
 
 /* MODIFY FOR CYBEER PROJECT (Code Institute Video Tutorial modified) */
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/st-paddys-day.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
