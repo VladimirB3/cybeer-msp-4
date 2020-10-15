@@ -17,10 +17,10 @@
                 Cybeer Snacks
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Meat &amp; Fish</a>
-                <a href="" class="dropdown-item">Cheese</a>
-                <a href="" class="dropdown-item">Nuts &amp; Pastry</a>
-                <a href="" class="dropdown-item">All Snacks</a>
+                <a href="{% url 'products' %}?category=meat,fish" class="dropdown-item">Meat &amp; Fish</a>
+                <a href="{% url 'products' %}?category=cheese" class="dropdown-item">Cheese</a>
+                <a href="{% url 'products' %}?category=nuts,pastry" class="dropdown-item">Nuts &amp; Pastry</a>
+                <a href="{% url 'products' %}?category=meat,fish,cheese,nuts,pastry" class="dropdown-item">All Snacks</a>
             </div>
         </li>
 
@@ -29,9 +29,9 @@
                 Subscriptions
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Cybeer Max</a>
-                <a href="" class="dropdown-item">Cybeer Mid</a>
-                <a href="" class="dropdown-item">Cybeer Min</a>
+                <a href="{% url 'products' %}?category=cybeer_max" class="dropdown-item">Cybeer Max</a>
+                <a href="{% url 'products' %}?category=cybeer_mid" class="dropdown-item">Cybeer Mid</a>
+                <a href="{% url 'products' %}?category=cybeer_min" class="dropdown-item">Cybeer Min</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearence" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,delas,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
