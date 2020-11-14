@@ -1,0 +1,1 @@
+web: gunicorn cybeer_msp4.wsgi:application
