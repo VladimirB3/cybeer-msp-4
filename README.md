@@ -48,7 +48,7 @@ The application is created for a couple types of users – the ones that wish to
 
 ## Wireframes: 
 * The Wireframes plan can be found in the Wireframes Folder in my github repository:
-[My Wireframe](https://github.com/VladimirB3/cybeer-msp-4/tree/master/wireframes/Screenshot 2020-09-08 at 17.04.31)
+[My Wireframe](https://github.com/VladimirB3/cybeer-msp-4/tree/master/wireframes/)
 
 
 
