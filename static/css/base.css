@@ -1,8 +1,11 @@
+/* MODIFIED FOR CYBEER PROJECT (Code Institute Video Tutorial modified) */
+
+
 html {
     height: 100%;
 }
 
-/* MODIFY FOR CYBEER PROJECT (Code Institute Video Tutorial modified) */
+/* MODIFIED FOR CYBEER PROJECT (Code Institute Video Tutorial modified) */
 body {
     background: url('/media/st-paddys-day.jpg') no-repeat center center fixed;
     background-size: cover;

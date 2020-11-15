@@ -11,7 +11,7 @@ This is a simple Storefront for beer lovers where you can order Beers and Snacks
 
 # UX
 
-The application is created for a couple types of users – the ones that wish to purchase the best beer available. The second group is the managment that can manage the store through superuser granted admin access.  Typical users might use the app for:
+The application is created for a couple types of users – the ones that wish to purchase the best beer and snacks available. The second group is the managment that can manage the store through superuser granted admin access.  Typical users might use the app for:
 
 **Viewing and Navigation:** 
 * View a list of products.
